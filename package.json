@@ -1,9 +1,9 @@
 {
-  "name": "coinselect-segwit",
+  "name": "litecoinselect",
   "version": "1.0.0",
   "description": "A transaction input selection module for bitcoin.",
   "keywords": [
-    "bitcoinselect",
+    "litecoinselect",
     "coin",
     "unspents",
     "wallet",
@@ -16,9 +16,9 @@
     "optimizing",
     "bitcoin"
   ],
-  "homepage": "https://github.com/yaswap/coinselect-segwit",
+  "homepage": "https://github.com/yaswap/litecoinselect",
   "bugs": {
-    "url": "https://github.com/yaswap/coinselect-segwit/issues"
+    "url": "https://github.com/yaswap/litecoinselect/issues"
   },
   "license": "MIT",
   "author": "Yaswap",
@@ -35,7 +35,7 @@
   "types": "index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yaswap/coinselect-segwit.git"
+    "url": "https://github.com/yaswap/litecoinselect.git"
   },
   "scripts": {
     "coverage": "nyc --check-coverage --branches 100 --functions 100 tape test/*.js",
