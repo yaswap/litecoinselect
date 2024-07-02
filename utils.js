@@ -20,9 +20,9 @@ function inputBytes (input) {
 
 function outputBytes (output) {
   return TX_OUTPUT_BASE + (output.script ? output.script.length
-    : output.address?.startsWith('bc1') || output.address?.startsWith('tb1')
-      ? output.address?.length === 42 ? TX_OUTPUT_SEGWIT : TX_OUTPUT_SEGWIT_SCRIPTHASH
-      : output.address?.startsWith('3') || output.address?.startsWith('2')
+    : output.address?.startsWith('ltc1')
+      ? output.address?.length === 43 ? TX_OUTPUT_SEGWIT : TX_OUTPUT_SEGWIT_SCRIPTHASH
+      : output.address?.startsWith('M') || output.address?.startsWith('3')
         ? TX_OUTPUT_SCRIPTHASH : TX_OUTPUT_PUBKEYHASH
   )
 }
